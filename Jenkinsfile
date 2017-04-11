@@ -15,7 +15,7 @@ node {
       sh "/usr/local/packer validate ${packer_file}"
 
     stage 'Build'
-      sh "packer build ${packer_file}" 
+      sh "packer build ${packer_file}"
 
     stage 'Test'
       print "Testing goes here."
