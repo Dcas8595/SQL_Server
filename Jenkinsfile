@@ -5,7 +5,7 @@ node {
   def err = null
   currentBuild.result = "SUCCESS"
 
-  try {
+  try { 
     stage 'Checkout'
       checkout scm
 
