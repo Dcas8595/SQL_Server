@@ -3,7 +3,7 @@
     "image_name": "myubuntu",
     "aws_region": "eu-west-2",
     "ami_id": "ami-ede2e889",
-    "security_group_id": "sg-a92869d1",
+    "security_group_id": "sg-40912e29",
     "instance_type": "t2.micro",
     "aws_access_key": "",
     "aws_secret_key": ""
