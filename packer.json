@@ -1,13 +1,10 @@
 {
   "variables": {
     "image_name": "myubuntu",
-    "aws_region": "us-west-2",
-    "ami_id": "ami-63ac5803",
-    "vpc_id": "",
-    "subnet_id": "",
-    "security_group_id": "sg-616f5206",
-    "instance_type": "t2.large",
-    "ssh_key": "/Users/adam/.ssh/apatterson_dp",
+    "aws_region": "eu-west-2",
+    "ami_id": "ami-ede2e889",
+    "security_group_id": "sg-a92869d1",
+    "instance_type": "t2.micro",
     "aws_access_key": "",
     "aws_secret_key": ""
   },
@@ -23,8 +20,6 @@
       "instance_type": "{{user `instance_type`}}",
       "ssh_username": "ubuntu",
       "ssh_timeout": "10m",
-      "vpc_id": "{{user `vpc_id`}}",
-      "subnet_id": "{{user `subnet_id`}}",
       "security_group_id": "{{user `security_group_id`}}"
     }
   ],
