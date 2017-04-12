@@ -12,7 +12,7 @@ node {
     stage 'Validate'
       def packer_file = 'sql_server.json'
       print "Running packer validate on : ${packer_file}"
-      sh "/usr/local/packer validate ${packer_file}"
+      sh "/usr/local/packer validate ${packer_file}" 
 
     stage 'Build'
     withCredentials(
